@@ -6,12 +6,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
+
+
 body a{
     transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
+	
 }
 input[type="button"]{
 	transition:0.5s all;
@@ -207,6 +210,8 @@ ul.callbacks_tabs.callbacks1_tabs {
 .right-grid {
   margin-top: 6.8em;
     padding:0;
+	
+	
 }
 .right-top h3 {
   font-size: 2.5em;
@@ -221,6 +226,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .right-top {
   width: 60%;
   margin: 0 auto 7em;
+  
 }
 p.lable1 {
   margin-top: 1.5em;
@@ -235,10 +241,15 @@ p.lable1 {
 .right-bottom h4 {
   color: white;
   font-size: 1.99em;
+ 
 
   padding: 1.95em 7em 0.1em 6em;
 
 
+}
+
+.about-grids {
+	background-color: #000;
 }
 .services-section {
   background: url("../images/banner1.jpg") no-repeat;
@@ -324,6 +335,7 @@ p.lable1 {
 /*-- portfolio --*/
 .portfolio-section{
 	padding-top:5em;
+	background-color: #000;
 }
 #portfoliolist .portfolio {
 	-webkit-box-sizing: border-box;
@@ -925,7 +937,7 @@ div#portfoliolist {
 .footer-section{
 	padding: 3em 0;
 	text-align: center;
-	background: #1a1a1a;
+	background-color: #000;
 }
 .footer-top p {
   font-size: 17px;
