@@ -44,17 +44,38 @@ body{
   font-weight: 400;
 }
 .header{
-	background: url("../images/vdk.gif") no-repeat;
+	background: url("../images/vdk.mp4") no-repeat;
 	background-repeat: no-repeat;
     background-size: 100% 100%;
 	background-position:center;
-	height: 100vh;
-    
+	height: 100vh;    
+	
 }
+
+.header video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+	z-index: -1;
+  }
 
 @media (max-width: 1440px) {
 	.header {
 		height: 50vh;
+		background-position:center;
+		display: block;
+	object-fit: cover;
+	background-size: cover;
+	}
+	.header video {
+		height: 50vh;
+		object-fit: cover;
+		position: absolute;
+	
 	}
 }
 .header-top {
@@ -2503,11 +2524,4 @@ width:0%;
 
 
 
-	video {
-		object-fit: cover;
-		width: 100vw;
-		height: 100vh;
-		position: fixed;
-		top: 0;
-		left: 0;
-	  }
+	
