@@ -5,6 +5,8 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url("font-awesome/css/font-awesome.min.css");
+
 
 
 
@@ -37,13 +39,14 @@ ul{
 	margin:0 0;	
 }
 body{
-  background-color: #1a1a1a;
+  background-color: #000000;
 	padding:0 0;
 	margin:0 0; 
 	font-family: 'Black Ops One', cursive;
   font-weight: 400;
 }
 .header{
+	background-color: #000000;
 	background: url("../images/vdk.mp4") no-repeat;
 	background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -88,10 +91,15 @@ body{
 }
 .logo a {
   display: block;
+  width: 50px;
 }
+.logo a img {
+	float: left;
+	width: 100px;
+  }
 .top-menu{
 	float: right;
-	  margin-top: 0.5em;
+	margin-top: 3em;
 }
 .top-menu ul li{
 	display: inline-block;
@@ -101,7 +109,7 @@ body{
   color: #fff;
   text-decoration: none;
   margin: 0 1em;
-  font-size: 1.4em;
+  font-size: 2em;
   text-transform: capitalize;
 
 }
@@ -236,14 +244,14 @@ ul.callbacks_tabs.callbacks1_tabs {
 	
 }
 .right-top h3 {
-  font-size: 2.5em;
+  font-size: 3.5em;
   color: white;
   margin-bottom: 1em;
 }
 .right-top span {
   color: #fac832;
-  font-size: 1.3em;
-  font-weight: 600;
+  font-size: 3.7em;
+  
 }
 .right-top {
   width: 60%;
@@ -322,8 +330,8 @@ p.lable1 {
   width: 70%;
 }
 .right-grid2 h4 {
-  color: #fff;
-  font-size: 2.5em;
+  color: #fac832;
+  font-size: 3.5em;
   font-weight: 700;
     margin-bottom: 0.2em;
 }
@@ -337,10 +345,11 @@ p.lable1 {
 }
 .portfolio-header{
  width: 37%;
-  margin: 0 auto;
+ margin: 0 auto 2em;
+  
 }
 .portfolio-header h3 {
-  font-size: 2.5em;
+  font-size: 3.5em;
   color: white;
   margin-bottom: 0.1em;
   font-weight: 600;
@@ -349,6 +358,7 @@ p.lable1 {
   color: #fac832;
   font-size: 1.3em;
   font-weight: 600;
+  text-align: center;
 }
 .portfolio-header p{
   font-size: 1.3em;
@@ -698,7 +708,7 @@ div#portfoliolist {
 
 
 .kill-now-header h3 {
-  font-size: 2.5em;
+  font-size: 3.5em;
   color: #fff;
   margin-bottom: 0.1em;
   text-transform: capitalize;
@@ -875,7 +885,7 @@ div#portfoliolist {
 }
 /*** contact***/
 .contact-section{
-	background: #2d2d2d;
+	background: #000000;
 	padding: 7em 0;
 }
 .contact-leftgrid h3 {
@@ -966,14 +976,24 @@ div#portfoliolist {
   color: #d5d6d7;
   font-weight: 400;
 }
+
+.footer-top i {
+	
+	
+	list-style: none;
+	font-size: 2.2rem;
+
+  }
+
+ 
 .footer-top a {
 	font-size: 19px;
-	color: #f0c514;
+	color: #d5d6d7;
 	font-weight: 400;
 	text-transform: capitalize;
 }
 .footer-top a:hover {
-	color: #d5d6d7;
+	color: #f0c514;
 }
 .footer-top p a {
 	margin: 0 6px 0 6px;
@@ -1135,7 +1155,7 @@ div#portfoliolist {
 
 @media(max-width:1440px){
 	.header {
-  		min-height: 1080px;
+  		min-height: 480px;
 	}
 	.rslides h3 {
 	  color: #fff;
@@ -1166,7 +1186,7 @@ div#portfoliolist {
 }
 @media(max-width:1366px){
 	.header {
-	  min-height: 730px;
+	  min-height: 480px;
 	}
 	.right-top p {
        font-size: 1.2em;
@@ -1187,7 +1207,7 @@ div#portfoliolist {
 }
 @media (max-width: 1280px){
 	.header {
-	  min-height: 683px;
+	  min-height: 490px;
 	}
 	.callbacks_nav {
   		left: 10%;
@@ -1216,7 +1236,7 @@ div#portfoliolist {
 }
 @media (max-width: 1024px){
 	.header {
- 		 min-height: 550px;
+ 		 min-height: 480px;
 	}
 	.top-menu ul li a {
 	  font-size: 1.2em;
