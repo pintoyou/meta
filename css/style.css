@@ -109,6 +109,7 @@ body{
   padding: 0;
   margin: 0;
   }
+
 .rslides h3{
   font-family: 'Montserrat', sans-serif;
 	color: #fff;
@@ -937,7 +938,7 @@ div#portfoliolist {
 .footer-section{
 	padding: 3em 0;
 	text-align: center;
-	background-color: #000;
+	background: #000000;
 }
 .footer-top p {
   font-size: 17px;
@@ -2497,3 +2498,16 @@ width:0%;
 	.google-map iframe {
  		 min-height: 235px;
 	}
+
+
+
+
+
+	video {
+		object-fit: cover;
+		width: 100vw;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+	  }
