@@ -250,7 +250,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .right-top span {
   color: #fac832;
-  font-size: 3.7em;
+  font-size: 1.5em;
   
 }
 .right-top {
@@ -270,14 +270,16 @@ p.lable1 {
 }
 .right-bottom h4 {
   color: white;
-  font-size: 1.99em;
- 
+  font-size: 1.99em; 
 
-  padding: 1.95em 7em 0.1em 6em;
+  padding: 1.95em 3em 0.1em 6em;
 
 
 }
 
+.about-section {
+	margin-top: 20px;
+}
 .about-grids {
 	background-color: #000;
 }
@@ -286,6 +288,7 @@ p.lable1 {
   background-size: cover;
   min-height: 500px;
   padding: 9em 0;
+  margin-top: 20px;
 }
 .service-leftgrid h3 {
   font-size: 2.5em;
